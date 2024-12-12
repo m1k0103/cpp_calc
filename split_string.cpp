@@ -17,8 +17,8 @@ vector<string> split(string input, char dl){
     //cout << typeid(output[1]).name();
     
     if (output.size() > 1){
-        cout << "second element: " << output[1] << "\n";
-        cout << "second element type: " << typeid(output[1]).name() << "\n";
+        //cout << "second element: " << output[1] << "\n";
+        //cout << "second element type: " << typeid(output[1]).name() << "\n";
         return output;
     } else{
         cout << "not enough elements in vector." << "\n";
