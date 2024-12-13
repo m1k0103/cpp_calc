@@ -33,6 +33,6 @@ int main(){
     char expression_sign = split_expression[1][0];
 
     double result = calc(stod(split_expression[0]),expression_sign,stod(split_expression[2]));
-    cout << result;
+    cout << result << "\n";
     return 0;
 }
